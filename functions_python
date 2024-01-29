@@ -1,0 +1,10 @@
+def premier_kpi(ecart , risque, indice_boursiere):
+    return ecart*risque/indice_boursiere
+
+print(premier_kpi(2000,20,0.5))
+print("record battu")
+nombre1=int(input("Premier nombre>"))
+print("\n")
+nombre2=int(input("Deuxième nombre>"))
+print("\n")  
+print("\nLe resultat est >"+" "+str(nombre1+nombre2))
